@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.finaldevelopment.YH.Mapper.a_typeMapper">
+
+    <select id="queryByName" parameterType="string" resultType="a_type">
+        select * from blog_database.a_type
+        <where>
+            type_name=#{name}
+        </where>
+    </select>
+
+    <insert id="insertAType" parameterType="a_type">
+        insert into blog_database.a_type(type_name) values (#{type_name});
+    </insert>
+
+    <delete id="deleteATypeByID" parameterType="int">
+        delete from blog_database.a_type
+        <where>
+            type_id=#{id};
+        </where>
+    </delete>
+
+</mapper>

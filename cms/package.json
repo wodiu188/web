@@ -1,5 +1,5 @@
 {
-  "name": "index_vue",
+  "name": "cms",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "ant-design-vue": "^3.0.0-alpha.14",
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
+    "vue-request": "^1.2.3",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
@@ -23,9 +27,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
-    "lint-staged": "^9.5.0",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2"
+    "lint-staged": "^9.5.0"
   },
   "eslintConfig": {
     "root": true,

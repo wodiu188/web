@@ -5,14 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bba7cbd7-56a5-412a-a144-068f10c1dbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/antd-cms/src/layout/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/TypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/UsersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cms/src/layouts/main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogIndex/index_vue/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/layout/main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/antd-cms/src/views/Home.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +81,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -181,12 +207,14 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../package_and_data/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Security/testlog4j" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -199,6 +227,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ts.external.directory.path" value="D:\Code\pojo\lastDevelopment\cms\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -210,17 +239,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.serve">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinalDevelopmentApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <extension name="coverage">
@@ -245,7 +263,7 @@
       </method>
     </configuration>
     <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/antd-cms/package.json" />
+      <package-json value="$PROJECT_DIR$/cms/package.json" />
       <command value="run" />
       <scripts>
         <script value="serve" />
@@ -254,6 +272,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.FinalDevelopmentApplicationTests.contextLoads" />
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.FinalDevelopmentApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.serve" />
@@ -278,7 +301,11 @@
       <workItem from="1638847847023" duration="1680000" />
       <workItem from="1638882161090" duration="621000" />
       <workItem from="1638969519669" duration="1342000" />
-      <workItem from="1639032414745" duration="295000" />
+      <workItem from="1639032414745" duration="4621000" />
+      <workItem from="1639037835753" duration="3671000" />
+      <workItem from="1639042681900" duration="11828000" />
+      <workItem from="1639097992961" duration="584000" />
+      <workItem from="1639117013426" duration="1315000" />
     </task>
     <servers />
   </component>

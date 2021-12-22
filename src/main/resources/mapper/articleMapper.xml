@@ -4,6 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.finaldevelopment.YH.Mapper.articleMapper">
 
+    <select id="queryAllArticle" resultType="article">
+        select a_name,description,article_id from blog_database.article
+    </select>
+
     <select id="queryByName" parameterType="string" resultType="article">
         select * from blog_database.article
         <where> a_name = #{name} </where>

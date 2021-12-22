@@ -11,7 +11,9 @@ import java.util.List;
 @Repository
 public interface articleMapper {
 
-    public List<article> queryByName(String name);
+    public List<article> queryAllArticle();
+
+    public article queryByName(String name);
 
     public article queryByID(int id);
 

@@ -5,50 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bba7cbd7-56a5-412a-a144-068f10c1dbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/blog_database_article.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/blog_database_users.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/components/RightSider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/css/markdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/layout/MainLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/ContentPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/common/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/layouts/main.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/other/mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/other/blog_database_a_type.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Mapper/articleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Mapper/articleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/articleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/articleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finaldevelopment/YH/FinalDevelopmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finaldevelopment/YH/FinalDevelopmentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/blog.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/articleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/articleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +209,7 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../package_and_data/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vueMode/index-demo/src/font/saffron" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/common" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -255,10 +228,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\pojo\lastDevelopment\src\main\java\com\finaldevelopment\YH\common" />
+      <recent name="D:\Code\pojo\lastDevelopment\vueMode\index-demo\src" />
       <recent name="D:\Code\pojo\lastDevelopment\vueMode\index-demo\src\font\saffron" />
       <recent name="D:\Code\pojo\lastDevelopment\vueMode\index-demo\public" />
       <recent name="D:\Code\pojo\lastDevelopment\other" />
-      <recent name="D:\Code\pojo\lastDevelopment\src\main\resources\mapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\pojo\lastDevelopment\vueMode\index-demo\src\font" />
@@ -269,15 +243,13 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.serve">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,6 +328,7 @@
       <workItem from="1640017656987" duration="1364000" />
       <workItem from="1640054197648" duration="11787000" />
       <workItem from="1640137200884" duration="10613000" />
+      <workItem from="1640221951115" duration="7685000" />
     </task>
     <servers />
   </component>

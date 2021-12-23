@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bba7cbd7-56a5-412a-a144-068f10c1dbfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/common/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22c05db7-22d8-4c8d-99a5-9d7ce42c055b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finaldevelopment/YH/FinalDevelopmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finaldevelopment/YH/FinalDevelopmentApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/blog.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/articleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/articleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,17 +228,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.serve">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinalDevelopmentApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <extension name="coverage">
@@ -329,6 +303,7 @@
       <workItem from="1640054197648" duration="11787000" />
       <workItem from="1640137200884" duration="10613000" />
       <workItem from="1640221951115" duration="7685000" />
+      <workItem from="1640237894272" duration="3113000" />
     </task>
     <servers />
   </component>

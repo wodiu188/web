@@ -1,16 +1,16 @@
 <template>
   <div >
-    <a-row v-for="item in dataList" v-bind:key="item.article_id" :gutter="[16,32]" @click="gotoContentPage(item.article_id)">
+    <a-row  v-for="item in dataList" v-bind:key="item.article_id" :gutter="[16,32]" @click="gotoContentPage(item.article_id)">
       <a-col :span="23">
         <a-card :title="item.a_name" :bordered="false" :hoverable="true">
           <p>{{item.description}}</p>
         </a-card>
       </a-col>
     </a-row>
-<!--    <p v-for="(i,j) in dataList" v-bind:key="j">-->
+<!--    <p v-for="(i,j) in dataList" v-bind:key="i.article_id" :f="flag">-->
 <!--      {{i.a_name}}-&#45;&#45;&#45;&#45;{{j}}-->
 <!--    </p>-->
-    <DownOutlined @click="init" :style="{fontSize:'22px',margin:'10px auto',display:'block'}"/>
+    <DownOutlined @click="putData" :style="{fontSize:'22px',margin:'10px auto',display:'block'}"/>
   </div>
 </template>
 
@@ -29,10 +29,22 @@ export default {
       }],
       test:[1,2,3,4,5,6],
       value:"",
+      flag:0
     }
   },
   beforeCreate() {
-    this.init();
+    request.get("/Article/query").then(res=>{
+      console.log(res)
+      if(res['msg']=="success"){
+        for(let i in res['data']){
+          this.dataList.push(res['data'][i])
+        }
+        console.log(this.dataList)
+        //让页面强制刷新
+        this.$forceUpdate();
+      }
+    })
+
   },
   components: {
     DownOutlined
@@ -46,18 +58,29 @@ export default {
   methods:{
     gotoContentPage(iii){
       this.$router.push({path:"/content",query:{"id":iii}})
-    },
-    init(){
-      request.get("/Article/query").then(res=>{
-        console.log(res)
-        if(res['msg']=="success"){
-          for(let i in res['data']){
-            this.dataList.push(res['data'][i])
-          }
-          console.log(this.dataList)
-        }
-      })
     }
+    // , init_data(){
+    //   request.get("/Article/query").then(res=>{
+    //     console.log(res)
+    //     if(res['msg']=="success"){
+    //       for(let i in res['data']){
+    //         this.dataList.push(res['data'][i])
+    //       }
+    //       console.log(this.dataList)
+    //     }
+    //   })
+    //   this.$forceUpdate();
+    // },
+    // putData(){
+    //   this.dataList.push({
+    //     "article_id":2,
+    //     "description":'aaa',
+    //     "a_name":"ccc"
+    //   })
+    //   console.log(this.dataList)
+    //   this.flag+=1
+    //   this.$forceUpdate();
+    // }
   }
 }
 </script>

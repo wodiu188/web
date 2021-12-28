@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bba7cbd7-56a5-412a-a144-068f10c1dbfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/InsertTest.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/blog_database_article.sql" beforeDir="false" afterPath="$PROJECT_DIR$/other/blog_database_article.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Entity/article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Entity/article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Mapper/articleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Mapper/articleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/articleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/articleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finaldevelopment/YH/FinalDevelopmentApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finaldevelopment/YH/FinalDevelopmentApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/layout/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/layout/MainLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/views/ContentPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/ContentPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/src/views/mainPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueMode/index-demo/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueMode/index-demo/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +222,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="D:\Code\pojo\lastDevelopment\vueMode\index-demo\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Software\Developer\IntelliJ IDEA 2021.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -227,7 +241,27 @@
       <recent name="com.finaldevelopment.YH.Configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="Spring Boot.FinalDevelopmentApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="FinalDevelopmentApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blog" />
       <extension name="coverage">
@@ -262,14 +296,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.generated-requests#5" />
+      <item itemvalue="HTTP Request.generated-requests#6" />
+      <item itemvalue="HTTP Request.generated-requests#1" />
       <item itemvalue="JUnit.FinalDevelopmentApplicationTests.contextLoads" />
       <item itemvalue="npm.serve" />
       <item itemvalue="Spring Boot.FinalDevelopmentApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.serve" />
         <item itemvalue="JUnit.FinalDevelopmentApplicationTests.contextLoads" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="npm.serve" />
+        <item itemvalue="HTTP Request.generated-requests#6" />
+        <item itemvalue="HTTP Request.generated-requests#5" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +343,10 @@
       <workItem from="1640054197648" duration="11787000" />
       <workItem from="1640137200884" duration="10613000" />
       <workItem from="1640221951115" duration="7685000" />
-      <workItem from="1640237894272" duration="3113000" />
+      <workItem from="1640237894272" duration="3317000" />
+      <workItem from="1640307480075" duration="7290000" />
+      <workItem from="1640400469113" duration="14407000" />
+      <workItem from="1640585866198" duration="29266000" />
     </task>
     <servers />
   </component>
@@ -382,6 +425,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/finaldevelopment/YH/Controller/ArticleController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

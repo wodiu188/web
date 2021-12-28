@@ -15,6 +15,8 @@ public interface articleMapper {
 
     public article queryByName(String name);
 
+    public List<article> queryByNameDescription(String name);
+
     public article queryByID(int id);
 
     public List<article> queryByType(a_type a_type);

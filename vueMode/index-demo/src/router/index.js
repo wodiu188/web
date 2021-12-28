@@ -7,9 +7,10 @@ const routes = [
     path: '',
     name: 'Home',
     component: MainLayout,
+    redirect:'/MainPage',
     children:[
         {
-          path:'',
+          path:'/MainPage',
           name:"MainPage",
           components:{
             left:MainPage,
@@ -24,6 +25,10 @@ const routes = [
         }
       }
     ]
+  },{
+    path:"/insertArticle",
+    name:"inserA",
+    component: ()=>import("../views/InsertTest")
   }
 ]
 

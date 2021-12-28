@@ -28,7 +28,7 @@ CREATE TABLE `article` (
   `by_userid` int DEFAULT NULL,
   `type_id` int DEFAULT NULL,
   `description` varchar(100) DEFAULT NULL,
-  `content` varchar(100) NOT NULL,
+  `content` text NOT NULL,
   `a_image` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`article_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

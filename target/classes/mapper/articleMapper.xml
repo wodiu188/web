@@ -36,4 +36,12 @@
         delete from article where article_id=#{article_id};
     </delete>
 
+
+    <select id="queryByNameDescription" resultType="article" parameterType="string">
+        select * from blog_database.article
+        <where>
+            a_name like concat('%',#{name},'%') or description like concat('%',#{name},'%')
+        </where>
+    </select>
+
 </mapper>

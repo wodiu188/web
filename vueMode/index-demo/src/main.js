@@ -4,9 +4,13 @@ import router from './router'
 import store from './store'
 import 'ant-design-vue/dist/antd.css'
 import Antd from 'ant-design-vue'
-
+import bodyParser from "body-parser";
 
 const app = createApp(App)
 app.config.productionTip = false
-app.use(Antd).use(store).use(router).mount('#app')
+app.use(Antd)
+    .use(store)
+    .use(router)
+    .use(bodyParser)
+    .mount('#app')
 

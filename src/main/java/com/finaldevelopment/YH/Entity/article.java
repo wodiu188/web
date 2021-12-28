@@ -2,6 +2,8 @@ package com.finaldevelopment.YH.Entity;
 
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 public class article {
 
@@ -12,5 +14,5 @@ public class article {
     private String description;
     private String content;
     private String a_image;
-
+    private Date create_date;
 }

@@ -2,8 +2,10 @@ package com.finaldevelopment.YH;
 
 import com.finaldevelopment.YH.Entity.a_type;
 import com.finaldevelopment.YH.Entity.article;
+import com.finaldevelopment.YH.Entity.type_of_article;
 import com.finaldevelopment.YH.Mapper.a_typeMapper;
 import com.finaldevelopment.YH.Mapper.articleMapper;
+import com.finaldevelopment.YH.Mapper.type_of_articleMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,14 +16,13 @@ import java.util.List;
 class FinalDevelopmentApplicationTests {
 
     @Autowired
-    articleMapper articleMapper;
+    type_of_articleMapper articleMapper;
 
     @Test
     void contextLoads() {
-        List<article> articles = articleMapper.queryByNameDescription("是");
-        for (article article : articles) {
-            System.out.println("1111");
-        }
+        List<type_of_article> type_of_articles = articleMapper.queryByTypeId(1);
+        System.out.println(type_of_articles);
+
 //        List<article> articles = articleMapper.queryAllArticle();
 //        for (article a:articles){
 //            System.out.println(a);

@@ -2,7 +2,7 @@
   <div >
     <a-layout class="out-layout" >
 
-      <a-layout-header :style="{  width: '100%' ,background:'#ffffff'}">
+      <a-layout-header :style="{  position: 'fixed', zIndex: 1,width: '100%' ,background:'#ffffff',boxShadow:'3px 2px 16px #888888'}">
         <div style="width: 94%;margin: auto">
           <a-menu
               theme="light"
@@ -17,7 +17,7 @@
             </a-menu-item>
             <a-menu-item key="1" @click="toMain">首页</a-menu-item>
             <a-menu-item key="2">关于我</a-menu-item>
-            <a-menu-item key="3">归纳</a-menu-item>
+            <a-menu-item key="3" @click="getType">归纳</a-menu-item>
             <a-menu-item key="4" selectable="false">
               <a-input-search
                 v-model:value="vv"
@@ -31,26 +31,8 @@
 
       </a-layout-header>
 
-      <div style="width: 84%;margin: 20px auto;">
-<!--        <div style=" padding: 20px">-->
-<!--          <a-row :gutter="16">-->
-<!--            <a-col :span="16">-->
-<!--              <a-card title="Card title" :bordered="false">-->
-<!--                <p>card content</p>-->
-<!--              </a-card>-->
-<!--            </a-col>-->
-
-<!--            <a-col :span="8">-->
-<!--              <a-card title="Card title" :bordered="false">-->
-<!--                <p>card content</p>-->
-<!--                <p>card content</p>-->
-<!--                <p>card content</p>-->
-
-<!--              </a-card>-->
-<!--            </a-col>-->
-
-<!--          </a-row>-->
-<!--        </div>-->
+      <div style="width: 84%;margin: 100px auto;">
+        <router-view name="top"/>
         <div style="float: left;width: 70%;">
           <router-view name="left" />
         </div>
@@ -85,6 +67,9 @@ export default {
       this.$router.push({path:"/MainPage",query:{"name":this.vv}})
     },
     unSelect(){
+    },
+    getType(){
+      this.$router.push({path:"/test"})
     }
   },
   components: {

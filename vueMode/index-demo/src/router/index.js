@@ -23,12 +23,22 @@ const routes = [
           left:()=>import("../views/ContentPage"),
           right: RightSider
         }
+      },{
+        path:"/test",
+        name:"RightSiderLabel",
+        components: {
+          top:()=>import("../components/RightSiderLabel")
+        }
       }
     ]
   },{
     path:"/insertArticle",
     name:"inserA",
     component: ()=>import("../views/InsertTest")
+  },{
+    path:"/editorArticle",
+    name:"editorA",
+    component: ()=>import("../views/EditorArticle")
   }
 ]
 

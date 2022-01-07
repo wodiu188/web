@@ -24,4 +24,6 @@ public interface articleMapper {
     public int insertArticle(article article);
 
     public int deleteArticle(article article);
+
+    public int updateArticle(article article);
 }

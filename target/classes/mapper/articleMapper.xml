@@ -36,6 +36,9 @@
         delete from article where article_id=#{article_id};
     </delete>
 
+    <update id="updateArticle" parameterType="article">
+        update `blog_database`.`article` set content=#{content} where a_name=#{a_name}
+    </update>
 
     <select id="queryByNameDescription" resultType="article" parameterType="string">
         select * from blog_database.article

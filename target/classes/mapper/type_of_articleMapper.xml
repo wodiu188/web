@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.finaldevelopment.YH.Mapper.type_of_articleMapper">
+
+    <select id="queryAllTA" resultType="type_of_article">
+        select * from  blog_database.type_of_article
+    </select>
+    <select id="queryByTypeId" resultType="type_of_article" parameterType="int">
+        select * from  blog_database.type_of_article
+        <where>
+            type_id=#{id}
+        </where>
+    </select>
+
+    <insert id="insertType" parameterType="type_of_article">
+        insert into blog_database.type_of_article(`article_id`,`type_id`)values (#{article_id},#{type_id})
+    </insert>
+</mapper>
